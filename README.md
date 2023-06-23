@@ -7,8 +7,8 @@ Something simple e-commerce,
 - php artisan serve
 
 ## Link web
-Admin: http://127.0.0.1:8000/admin
-Guest/For all: http://127.0.0.1:8000/
+- Admin: http://127.0.0.1:8000/admin
+- Guest/For all: http://127.0.0.1:8000/
 
 ## Screenshot
 <p align="center">
