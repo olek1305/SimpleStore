@@ -3,5 +3,5 @@ Something simple e-commerce,
 
 ## Screenshot
 <p align="center">
-<img src="/pubic/img/home" alt="home">
+<img src="/pubic/img/home.png" alt="home">
 </p>
