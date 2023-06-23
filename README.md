@@ -3,5 +3,5 @@ Something simple e-commerce,
 
 ## Screenshot
 <p align="center">
-<img src="/pubic/img/home.png" alt="home">
+<img src="https://github.com/olek1305/SimpleStore/blob/master/public/img/Menu.png" alt="home">
 </p>
