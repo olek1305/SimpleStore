@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
-        crossorigin="anonymous" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
     <link href="{{ asset('/css/app.css') }}" rel="stylesheet" />
     <title>@yield('title', 'Simple Store')</title>
@@ -17,13 +17,14 @@
     <nav class="navbar navbar-expand-lg navbar-dark bg-secondary py-4">
         <div class="container">
             <a class="navbar-brand" href="{{ route('home.index') }}">Simple Store</a>
-            <button class="navbar-toggler bg-primary bi bi-arrow-down-left-square" type="button"
-                data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
-                aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler bg-primary bi-arrow-down-left-square" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                aria-label="Toggle navigation">
                 <span class="navbar-toggle-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav ms-auto">
+                    <hr />
                     <a class="nav-link active" href="{{ route('home.index') }}">Home</a>
                     <a class="nav-link active" href="{{ route('home.about') }}">About</a>
                     <a class="nav-link active" href="{{ route('product.index') }}">Products</a>
