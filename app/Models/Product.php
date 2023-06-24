@@ -3,6 +3,7 @@
 namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
+use PhpParser\Node\Expr\FuncCall;
 
 class Product extends Model
 {
@@ -25,6 +26,14 @@ class Product extends Model
             "price" => "required|numeric|gt:0",
             'image' => 'image|max:50120',
         ]);
+    }
+
+    public static function sumPricesByQuantities($products, $productsInSession)
+    {
+        $total = 0;
+        foreach ($products as $product) {
+            $total = $total + ($product->getPrice() * $productsInSession[$product->getId()]);
+        }
     }
 
     public function getId()
