@@ -23,7 +23,7 @@ class Product extends Model
             "name" => "required|max:255",
             "description" => "required",
             "price" => "required|numeric|gt:0",
-            'image' => 'image',
+            'image' => 'image|max:50120',
         ]);
     }
 
