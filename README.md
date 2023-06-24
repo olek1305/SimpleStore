@@ -12,7 +12,7 @@ Something simple e-commerce,
 
 ## Screenshot
 <p align="center">
-<img src="https://github.com/olek1305/SimpleStore/blob/master/public/img/Menu.png" alt="Home">
-<img src="https://github.com/olek1305/SimpleStore/blob/master/public/img/AdminPanel.png" alt="AdminPanel">
+<img src="https://github.com/olek1305/SimpleStore/blob/master/public/storage/Menu.png" alt="Home">
+<img src="https://github.com/olek1305/SimpleStore/blob/master/public/storage/AdminPanel.png" alt="AdminPanel">
 
 </p>
