@@ -6,9 +6,9 @@ Something simple e-commerce,
 - php artisan db:seed --class=RandomSeeder 
 - php artisan serve
 
-## Link web
-- Admin: http://127.0.0.1:8000/admin
-- Guest/For all: http://127.0.0.1:8000/
+## Link web localhost
+- for Admin: http://127.0.0.1:8000/admin
+- for Guest: http://127.0.0.1:8000/
 
 ## Screenshot
 <p align="center">
