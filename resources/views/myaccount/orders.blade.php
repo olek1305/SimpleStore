@@ -43,5 +43,3 @@
         </div>
     @endforelse
 @endsection
-
-@endempty
