@@ -12,7 +12,7 @@
     <title>@yield('title', 'Simple Store')</title>
 </head>
 
-<body>
+<body class="d-flex flex-column min-vh-100">
     <!--header-->
     <nav class="navbar navbar-expand-lg navbar-dark bg-secondary py-4">
         <div class="container">
@@ -58,8 +58,8 @@
         @yield('content')
     </div>
     <!--footer-->
-    <div class="copyright py-4 text-center text-white">
-        <div class="container">
+    <div class="copyright py-4 text-white mt-auto">
+        <div class="container text-center">
             <small>
                 Copyright - <a class="text-reset fw-bold text-decoration-none" target="_blank" href="#">
                     Arcylisz

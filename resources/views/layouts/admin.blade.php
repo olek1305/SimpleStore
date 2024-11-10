@@ -12,9 +12,8 @@
     <title>@yield('title', 'Admin - Simple Store')</title>
 </head>
 
-<body>
-
-    <div class="row g-0">
+<body class="d-flex flex-column min-vh-100">
+    <div class="row g-0 flex-grow-1">
         <!--sidebar-->
         <div class="p-3 col fixed text-white bg-dark">
             <a href="{{ route('admin.home.index') }}" class="text-white text-decoration-none">
@@ -30,6 +29,7 @@
             </ul>
         </div>
         <!--sidebar-->
+
         <div class="col content-grey">
             <nav class="p-3 shadow text-end">
                 <span class="profile-font">Admin</span>
@@ -43,8 +43,8 @@
     </div>
 
     <!--footer-->
-    <div class="copyright py-4 test-center text-white">
-        <div class="container">
+    <div class="copyright py-4 text-white mt-auto">
+        <div class="container text-center">
             <small>
                 Copyright - <a class="text-reset fw-bold text-decoration-none" target="_blank"
                     href="https://github.com/olek1305">
@@ -54,6 +54,7 @@
         </div>
     </div>
     <!--footer-->
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous">
     </script>
 </body>
